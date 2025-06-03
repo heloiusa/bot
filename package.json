@@ -1,0 +1,35 @@
+{
+  "name": "chatbot-ordenare",
+  "version": "1.0.0",
+  "description": "Ordenare - Chatbot de agendamento médico via Telegram, integrado ao sistema Consulare.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "chatbot",
+    "telegram",
+    "agendamento",
+    "bot",
+    "nodejs",
+    "saúde",
+    "consulare"
+  ],
+  "author": "Heloisa Costa",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.5.0",
+    "googleapis": "^149.0.0",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heloiusa/ordenare-chatbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/heloiusa/ordenare-chatbot/issues"
+  },
+  "homepage": "https://github.com/heloiusa/ordenare-chatbot#readme"
+}
