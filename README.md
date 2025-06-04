@@ -29,10 +29,15 @@ Interface intuitiva e responsiva com teclados personalizados
 ## Estrutura do Projeto
 ordenare-chatbot/
 ├── agendamento.csv # Dados coletados das interações
+
 ├── bot.js # Lógica principal do chatbot
+
 ├── sheets.js # Integração com Google Sheets
+
 ├── .env # Token do bot (não versionado)
+
 ├── package.json # Dependências e scripts
+
 └── README.md # Documentação do projeto
 
 ---
@@ -42,7 +47,7 @@ ordenare-chatbot/
 1. **Clone o repositório:**
 ```bash
 git clone https://github.com/heloiusa/ordenare-chatbot.git
-cd ordenare-chatbot
+cd bot
 ```
 2. **Instale as Dependências**
 ```bash
